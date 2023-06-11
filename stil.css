@@ -1,44 +1,547 @@
 @charset "UTF-8";
 /* CSS Document */
-p {
-  color:green;
-  font-family:"Gill Sans", sans-serif;
-  font-size-adjust: 16px;
-  line-height: 18px;
-  width: 600px;
-  background-color: antiquewhite;
-  padding: 20px;
+
+html {background: url("Slike/Untitled-2.png") no-repeat center fixed;
+      background-size: cover;
 }
-.paragraf_2 {color:darkcyan; background-color: rgba(255, 255, 255, 0.5)}
-.novi_blok {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  margin: 20px;
-  width: 50%;
-}
-h1, h2 {
-  font-family: sans-serif;
-  color: cadetblue;
+body {
+    min-height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-size: cover;
 }
 
-span {color: rgb(255, 0, 255);}
-.pozadina{
-  background-image: url("Slike/pexels-efe-ersoy-14822518.jpg");
+
+.paragraf_1 {color:#562F21;
+             font-size: 30px;
+             font-family: "League Spartan Light";
+             line-height: 1.5;
+             text-align: start;
+             padding: 35px;
+             padding-left: 70px;
+             padding-right: 200px;
+             background-color: rgba(255, 255, 255, 0.5);}
+
+.paragraf_1 {position: relative;
+             top: -330px;
+             left: 30px;
 }
+
+
 .drugapozadina {
-  background-color: darkgray;
+    min-height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-size: cover;}
+
+.link1 {padding: 20px 70px;}
+
+
+li {position: relative;
+top: -250px;
+left: 0px;}
+
+h1 {color: antiquewhite;
+  font-size: 150px;
+  font-family: "MelaniKovacevic";}
+h1 {position: relative;
+    top: 17px;
+    left: 30px;}
+
+h2 {color: antiquewhite;
+  font-size: 65px;
+  font-family: "PP Pangram Sans Rounded Narrow";}
+h2 {position: relative;
+      top: -120px;
+      left: 30px;}
+
+.Naslov2 {color: antiquewhite;
+          font-size: 99px;
+          font-family: "League Spartan ExtraBold";
 }
 
-a:link{
-  color: black;
-  background-color: white;
-  padding: 5px;
-  line-height: 40px;
-  border:1px solid #000000;
+.Podnaslov1 {color: #6D3D46;
+             font-size: 65px;
+             font-family: "PP Pangram Sans Rounded Narrow"
+             text-align: left;
+              padding: 20px;
+              padding-bottom: 50px;
+              padding-right: 627px;
+              padding-bottom: 50px;
+              background-color: rgba(255, 255, 255, 0.5);
 }
-a:hover{
-  background-color: darkgray;
+.Podnaslov1 {position: absolute;
+                   top: 260px;
+                   left: 120px;
+                   margin-bottom:0px;
 }
-img {
-  height: 300px;
+
+h3 {color: #6D3D46;
+    font-size: 55px;
+    padding: 8px;
+    padding-bottom: 25px;
+    padding-right: 1091px;
+    background-color: rgba(186, 132, 142, 0.5);
+    font-family: "PP Pangram Sans Rounded Narrow";}
+h3 {position: absolute;
+  margin-top: 143px;
+    left: 120px;}
+
+.Vjezba1 {position: absolute;
+          margin-top: 273px;
+          margin-left: 45px;
+          margin-bottom: 25px;}
+
+p {color:#562F21;
+   font-family:"League Spartan Light";
+   font-size: 30px;
+   line-height: 35px;
+   width: 600px;
+   background-color: antiquewhite;
+   padding: 20px;}
+p {position: absolute;
+  margin-top: 315px;
+  left: 723px;}
+
+h4 {color: #6D3D46;
+    font-size: 55px;
+    padding: 8px;
+    padding-bottom: 25px;
+    padding-right: 1091px;
+    background-color: rgba(186, 132, 142, 0.5);
+    font-family: "PP Pangram Sans Rounded Narrow";}
+h4 {position: absolute;
+  margin-top:593px;
+    left: 120px;
+  margin-bottom: 25px;}
+
+.Vjezba2 {position: absolute;
+          margin-top: 726px;
+          margin-left: 45px;
+        margin-bottom: 25px;}
+
+.p2 {color:#562F21;
+   font-family:"League Spartan Light";
+   font-size: 30px;
+   line-height: 35px;
+   width: 850px;
+   background-color: antiquewhite;
+   padding: 20px;}
+.p2 {position: absolute;
+       margin-top:793px;
+     left: 480px;}
+
+h5 {color: #6D3D46;
+    font-size: 55px;
+    padding: 8px;
+    padding-bottom: 25px;
+    padding-right: 1091px;
+    background-color: rgba(186, 132, 142, 0.5);
+    font-family: "PP Pangram Sans Rounded Narrow";}
+h5 {position: absolute;
+margin-bottom: 25px;
+left: 120px;
+margin-top: 1046px;}
+
+.Vjezba3 {position: absolute;
+margin-bottom: 25px;
+margin-left: 45px;
+margin-top: 1179px;}
+
+.p3 {color:#562F21;
+     font-family:"League Spartan Light";
+     font-size: 30px;
+     line-height: 35px;
+     width: 700px;
+     background-color: antiquewhite;
+     padding: 20px;}
+.p3 {position: absolute;
+margin-top: 1183px;
+left: 630px;}
+
+h6 {color: #6D3D46;
+    font-size: 55px;
+    padding: 8px;
+    padding-bottom: 25px;
+    padding-right: 1091px;
+    background-color: rgba(186, 132, 142, 0.5);
+    font-family: "PP Pangram Sans Rounded Narrow";}
+h6 {position: absolute;
+  left: 120px;
+margin-bottom: 25px;
+margin-top: 1499px;}
+
+.Vjezba4 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 1632px;}
+
+.p4 {color:#562F21;
+    font-family:"League Spartan Light";
+    font-size: 30px;
+    line-height: 35px;
+    width: 700px;
+    background-color: antiquewhite;
+    padding: 20px;}
+.p4 {position: absolute;
+margin-top: 1618px;
+left:630px;}
+
+.h7 {color: #93152C;
+         font-size: 55px;
+         padding: 8px;
+         padding-bottom: 25px;
+         padding-right: 850px;
+         font-family: "PP Pangram Sans Rounded Narrow";}
+.h7 {position: absolute;
+margin-bottom: 25px;
+left: 120px;
+margin-top: 1952px;}
+
+.ProjektniZadatak1 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 2085px;}
+
+.pro1 {color:#562F21;
+         font-family:"League Spartan Light";
+         font-size: 30px;
+         line-height: 35px;
+         width: 900px;
+         background-color: antiquewhite;
+         padding: 20px;}
+.pro1 {position: absolute;
+margin-top: 2101px;
+left:410px;}
+
+.Podnaslov2 {color: #6D3D46;
+                font-size: 65px;
+                font-family: "PP Pangram Sans Rounded Narrow"
+                text-align: left;
+                padding: 20px;
+                padding-bottom: 50px;
+                padding-right: 735px;
+                padding-bottom: 50px;
+                background-color: rgba(255, 255, 255, 0.5);}
+
+.Podnaslov2 {position: absolute;
+left: 120px;
+margin-bottom:0px;
+margin-top: 2950px;}
+
+.h8 {color: #562F21;
+                   font-size: 55px;
+                   padding: 8px;
+                   padding-bottom: 25px;
+                   padding-right: 1091px;
+                   font-family: "PP Pangram Sans Rounded Narrow";}
+.h8 {position: absolute;
+margin-bottom: 25px;
+margin-top: 143px;
+left: 120px;
+margin-top: 2549px;
 }
+
+.Vjezba5 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 2682px;}
+
+.p5 {color:#562F21;
+                   font-family:"League Spartan Light";
+                   font-size: 30px;
+                   line-height: 35px;
+                   width: 600px;
+                   background-color: antiquewhite;
+                   padding: 20px;}
+.p5 {position: absolute;
+margin-top: 2688px;
+left: 700px;}
+
+.Vjezba6 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 3135px;}
+
+.p6 {color:#562F21;
+    font-family:"League Spartan Light";
+    font-size: 30px;
+    line-height: 35px;
+    width: 700px;
+    background-color: antiquewhite;
+    padding: 20px;}
+.p6 {position: absolute;
+margin-top: 3165px;
+left: 580px;}
+
+.h9 {color: #562F21;
+    font-size: 55px;
+    font-family: "PP Pangram Sans Rounded Narrow";}
+.h9 {position: absolute;
+margin-bottom: 25px;
+left: 120px;
+margin-top: 3002px;}
+
+.Vjezba7 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 3888px;}
+
+.p7 {color:#562F21;
+     font-family:"League Spartan Light";
+      font-size: 30px;
+      line-height: 35px;
+      width: 700px;
+      background-color: antiquewhite;
+      padding: 20px;}
+.p7 {position: absolute;
+margin-top: 3908px;
+left: 600px;}
+
+.h10 {color: #562F21;
+        font-size: 55px;
+        font-family: "PP Pangram Sans Rounded Narrow";}
+.h10 {position: absolute;
+margin-bottom: 25px;
+left: 120px;
+margin-top: 3755px;}
+
+.ProjektniZadatak2 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 4341px;}
+
+.pro2 {color:#562F21;
+       font-family:"League Spartan Light";
+       font-size: 30px;
+       line-height: 35px;
+       width: 700px;
+       background-color: antiquewhite;
+       padding: 20px;}
+.pro2 {position: absolute;
+left: 650px;
+margin-top: 4316px;
+}
+
+.h11 {color: #93152C;
+     font-size: 55px;
+     padding: 8px;
+     padding-bottom: 25px;
+     padding-right: 850px;
+     font-family: "PP Pangram Sans Rounded Narrow";}
+.h11 {position: absolute;
+margin-bottom: 25px;
+left: 120px;
+margin-top: 4208px;}
+
+.Podnaslov3 {color: #6D3D46;
+            font-size: 65px;
+            font-family: "PP Pangram Sans Rounded Narrow"
+            text-align: left;
+            padding: 20px;
+            padding-bottom: 50px;
+            padding-right: 790px;
+            padding-bottom: 50px;
+            background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Podnaslov3 {position: absolute;
+left: 120px;
+margin-bottom:0px;
+margin-top: 5287px;
+}
+
+
+.Vjezba8 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 4949px;}
+
+.p8 {color:#562F21;
+       font-family:"League Spartan Light";
+       font-size: 30px;
+       line-height: 35px;
+       width: 450px;
+       background-color: antiquewhite;
+       padding: 20px;}
+.p8 {position: absolute;
+  margin-top: 4919px;
+  left: 897px;
+}
+
+.h12 {color: #6D3D46;
+     font-size: 55px;
+     font-family: "PP Pangram Sans Rounded Narrow";}
+.h12 {position: absolute;
+  margin-bottom: 25px;
+  margin-top: 143px;
+  margin-top: 4812px;
+}
+
+.Vjezba9 {position: absolute;
+margin-left: 45px;
+margin-bottom: 25px;
+margin-top: 5402px;}
+
+.p9 {color:#562F21;
+            font-family:"League Spartan Light";
+            font-size: 30px;
+            line-height: 35px;
+            width: 1100px;
+            background-color: antiquewhite;
+            padding: 18px;}
+.p9 {position: absolute;
+margin-top: 5743px;
+left: 165px;}
+
+.h13 {color: #6D3D46;
+          font-size: 55px;
+          font-family: "PP Pangram Sans Rounded Narrow";}
+
+.h13 {position: absolute;
+margin-bottom: 25px;
+left: 120px;
+margin-top: 5269px;}
+
+.linkback {position: absolute;
+left: 120px;
+margin-top: 5935px;}
+
+.linkback {background-color: rgba(255, 255, 255, 0.5);
+      padding: 20px;
+      border: 2px solid #C8A1A8;
+      margin-right: 10px}
+      a :active {background-color:rgba(255, 255, 255);}
+      a {color:#562F21;
+            font-family: "PP Pangram Sans Rounded Narrow";
+            }
+      a:link {text-decoration:none;}
+      a:hover {text-decoration:underline;}
+
+      a:link {color:#562F21;}
+      a:hover {color:#C25165;}
+
+.linkback2 {background-color: rgba(255, 255, 255, 0.5);
+      padding: 20px;
+      border: 2px solid #C8A1A8;
+      margin-right: 10px}
+      a :active {background-color:rgba(255, 255, 255);}
+      a {color:#562F21;
+            font-family: "PP Pangram Sans Rounded Narrow";
+            }
+      a:link {text-decoration:none;}
+      a:hover {text-decoration:underline;}
+
+.linkback2 {position: absolute;
+top: 1420px;
+left:130px}
+
+.linkback3 {position: absolute;
+              right:320px;
+              left:165px;
+              top:2055px;
+              right:1220px;}
+
+.linkback3 {background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border: 2px solid #C8A1A8;
+            margin-right: 10px}
+            a :active {background-color:rgba(255, 255, 255);}
+            a {color:#562F21;
+            font-family: "League Spartan Light";}
+  a:link {text-decoration:none;}
+  a:hover {text-decoration:underline;}
+
+
+      .video {color: antiquewhite;
+                font-size: 99px;
+                font-family: "League Spartan ExtraBold";}
+
+                  .pv {color:#562F21;
+                   font-size: 25px;
+                   font-family: "League Spartan Light";
+                   line-height: 1.5;
+                   text-align: left;
+                   padding: 25px;
+                   padding-left: 20px;
+                   padding-right: 20px;
+                   width: 950px;
+                   background-color: rgba(255, 255, 255, 0.5);}
+
+    .pv {position:absolute;
+      left:125px;
+      top: 700px;}
+
+.naslov  {color: antiquewhite;
+            font-size: 99px;
+            font-family: "League Spartan ExtraBold";}
+
+.paragrafom  {color:#562F21;
+             font-size: 25px;
+             font-family: "League Spartan Light";
+             line-height: 1.5;
+             text-align: start;
+             padding: 25px;
+             padding-left: 20px;
+             padding-right: 20px;
+             width: 1000px;
+             background-color: rgba(255, 255, 255, 0.5);
+           position: absolute;
+         top: -60px;
+       left: 160px;}
+
+
+.ompodnaslov {color: #6D3D46;
+    font-size: 55px;
+    padding: 8px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    background-color: rgba(186, 132, 142, 0.5);
+    font-family: "PP Pangram Sans Rounded Narrow";}
+
+.ompodnaslov {position: absolute;
+              right:320px;
+              left: 160px;
+              top:50px;}
+
+.mojiradovi {position: absolute;
+            right: 300px;
+            top: 780px;
+          left: 147px;}
+
+.ompodnaslov2 {color: #6D3D46;
+              font-size: 55px;
+              padding: 8px;
+              padding-bottom: 25px;
+              padding-left: 50px;
+              background-color: rgba(186, 132, 142, 0.5);
+              font-family: "PP Pangram Sans Rounded Narrow";}
+.ompodnaslov2 {position: absolute;
+              right:320px;
+              left: 160px;
+              top:930px;}
+
+.album {position: absolute;
+              right:320px;
+              left: 165px;
+              top:1655px;}
+
+.palbum {color:#562F21;
+             font-size: 25px;
+             font-family: "League Spartan Light";
+             line-height: 1.5;
+             text-align: start;
+             padding: 25px;
+             padding-left: 20px;
+             padding-right: 20px;
+             width: 600px;
+             background-color: rgba(255, 255, 255, 0.5);
+             position: absolute;
+             right:320px;
+             left: 495px;
+             top:1375px;}
+
+.profilnapint {position: absolute;
+              right:320px;
+              left:495px;
+              top:1855px;}
